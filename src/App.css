@@ -1,0 +1,23 @@
+.tic-tac-toe-container{
+    display: table;
+    clear: both;
+    content: "";
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.square{
+    border: 1px solid red;
+    float: left;
+    font-size: 40px;
+    height: 100px;
+    width: 100px;
+    padding: 0px;
+    text-align: center;
+    margin-top: -1px;
+    margin-right: -1px;
+    cursor: pointer;
+
+}
